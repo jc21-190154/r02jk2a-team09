@@ -8,7 +8,7 @@ class Kadai01Test {
 	void testReverseString() {
 		Kadai01 k = new Kadai01();
 		assertNull(k.ReverseString(null));
-		assertEquals(4321,k.ReverseString("1234"));
+		assertEquals("4321",k.ReverseString("1234"));
 	}
 
 }
